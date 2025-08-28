@@ -21,6 +21,10 @@
       margin-right: 10px;
       
     }
+    .copy-btn{
+      width: 70px;
+      height: 40px;
+    }
     .btn-margin ul{
       gap: 5px;
       
@@ -46,6 +50,36 @@
        height: 80px;
        margin-top: 30px;
      }
+
+
+  .main{
+    padding: 0px;
+    
+  }
+
+
+
+
+  .main-container{
+      flex-direction: column;
+  }
+
+
+
+  .card-container{
+    grid-template-columns: repeat(1, 1fr);
+    
+  }
+
+
+
+
+
+
+
+ .faruq{
+    display: none;
+ }
 
 
 
