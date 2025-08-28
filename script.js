@@ -301,6 +301,86 @@ document.getElementById('Railway-call-btn').addEventListener('click', function()
 
 
 
+            // History Button - Clear
+  
+document.getElementById('History-Btn').addEventListener('click', function(){
+ 
+       const History = document.getElementById('History');
+
+       
+
+
+
+
+})
+
+
+          // Copy Button
+
+function copyButton(){
+        const copyCount = parseInt(document.getElementById('copy-count').innerText);
+     const newCopyCount = copyCount + 1;
+
+    document.getElementById('copy-count').innerText = newCopyCount;
+
+};
+
+
+document.getElementById('copy1').addEventListener('click', function(){
+
+        alert('Number copied: 999');
+     
+      copyButton()
+})
+document.getElementById('copy2').addEventListener('click', function(){
+
+        alert('Number copied: 999');
+     
+      copyButton()
+})
+document.getElementById('copy3').addEventListener('click', function(){
+
+        alert('Number copied: 999');
+     
+      copyButton()
+})
+document.getElementById('copy4').addEventListener('click', function(){
+
+        alert('Number copied: 1994-999999');
+     
+      copyButton()
+})
+document.getElementById('copy5').addEventListener('click', function(){
+
+        alert('Number copied: 109');
+     
+      copyButton()
+})
+document.getElementById('copy6').addEventListener('click', function(){
+
+        alert('Number copied: 106');
+     
+      copyButton()
+})
+document.getElementById('copy7').addEventListener('click', function(){
+
+        alert('Number copied: 16216');
+     
+      copyButton()
+})
+document.getElementById('copy8').addEventListener('click', function(){
+
+        alert('Number copied: 16445');
+     
+      copyButton()
+})
+document.getElementById('copy9').addEventListener('click', function(){
+
+        alert('Number copied: 163');
+     
+      copyButton()
+})
+
 
 
 
