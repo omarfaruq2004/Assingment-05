@@ -303,12 +303,12 @@ document.getElementById('Railway-call-btn').addEventListener('click', function()
 
             // History Button - Clear
   
-const hoveEffect = document.getElementById('History-Btn');
+const hoveEffect = document.getElementById('clear-Btn');
 const History =document.getElementById('History');
 
 hoveEffect.addEventListener('click', function(){
-  
-// History.classList.toggle('hidden');
+
+  History.innerHTML = " ";
 
 });
 
