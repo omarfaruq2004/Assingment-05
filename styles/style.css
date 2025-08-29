@@ -12,7 +12,9 @@
 
 
 
-
+.hidden{
+  display: none;
+}
 
 
 
@@ -79,6 +81,18 @@
     
   }
 
+
+   .card{
+       width: 410px;
+   }
+
+
+  .card-con{
+    padding: 0px;
+     
+  }
+
+  
 
 
 

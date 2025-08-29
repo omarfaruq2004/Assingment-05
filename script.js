@@ -303,16 +303,16 @@ document.getElementById('Railway-call-btn').addEventListener('click', function()
 
             // History Button - Clear
   
-document.getElementById('History-Btn').addEventListener('click', function(){
- 
-       const History = document.getElementById('History');
+const hoveEffect = document.getElementById('History-Btn');
+const History =document.getElementById('History');
 
-       
+hoveEffect.addEventListener('click', function(){
+  
+// History.classList.toggle('hidden');
 
+});
 
-
-
-})
+    
 
 
           // Copy Button
@@ -328,58 +328,156 @@ function copyButton(){
 
 document.getElementById('copy1').addEventListener('click', function(){
 
-        alert('Number copied: 999');
-     
-      copyButton()
+  const text =document.getElementById('textCopy').innerText;
+
+  navigator.clipboard.writeText(text).then(() => {
+    alert('Text copied: ' + text);
+
+  }).catch(err => {
+    console.error('Failed to copy text: ', err);
+  });
+
+  copyButton();
+  
 })
+
+
+
 document.getElementById('copy2').addEventListener('click', function(){
 
-        alert('Number copied: 999');
-     
-      copyButton()
+  const text =document.getElementById('textCopy').innerText;
+
+  navigator.clipboard.writeText(text).then(() => {
+    alert('Text copied: ' + text);
+
+  }).catch(err => {
+    console.error('Failed to copy text: ', err);
+  });
+
+  copyButton();
+  
 })
+
+
+
 document.getElementById('copy3').addEventListener('click', function(){
 
-        alert('Number copied: 999');
-     
-      copyButton()
+  const text =document.getElementById('textCopy').innerText;
+
+  navigator.clipboard.writeText(text).then(() => {
+    alert('Text copied: ' + text);
+
+  }).catch(err => {
+    console.error('Failed to copy text: ', err);
+  });
+
+  copyButton();
+  
 })
+
+
+
 document.getElementById('copy4').addEventListener('click', function(){
 
-        alert('Number copied: 1994-999999');
-     
-      copyButton()
+  const text1 =document.getElementById('textCopy1').innerText;
+
+  navigator.clipboard.writeText(text1).then(() => {
+    alert('Text copied: ' + text1);
+
+  }).catch(err => {
+    console.error('Failed to copy text: ', err);
+  });
+
+  copyButton();
+  
 })
+
+
+
 document.getElementById('copy5').addEventListener('click', function(){
 
-        alert('Number copied: 109');
-     
-      copyButton()
+  const text2 =document.getElementById('textCopy2').innerText;
+
+  navigator.clipboard.writeText(text2).then(() => {
+    alert('Text copied: ' + text2);
+
+  }).catch(err => {
+    console.error('Failed to copy text: ', err);
+  });
+
+  copyButton();
+  
 })
+
+
+
 document.getElementById('copy6').addEventListener('click', function(){
 
-        alert('Number copied: 106');
-     
-      copyButton()
+  const text3 =document.getElementById('textCopy3').innerText;
+
+  navigator.clipboard.writeText(text3).then(() => {
+    alert('Text copied: ' + text3);
+
+  }).catch(err => {
+    console.error('Failed to copy text: ', err);
+  });
+
+  copyButton();
+  
 })
+
+
+
 document.getElementById('copy7').addEventListener('click', function(){
 
-        alert('Number copied: 16216');
-     
-      copyButton()
+  const text7 =document.getElementById('textCopy7').innerText;
+
+  navigator.clipboard.writeText(text7).then(() => {
+    alert('Text copied: ' + text7);
+
+  }).catch(err => {
+    console.error('Failed to copy text: ', err);
+  });
+
+  copyButton();
+  
 })
+
+
+
 document.getElementById('copy8').addEventListener('click', function(){
 
-        alert('Number copied: 16445');
-     
-      copyButton()
+  const text8 =document.getElementById('textCopy8').innerText;
+
+  navigator.clipboard.writeText(text8).then(() => {
+    alert('Text copied: ' + text8);
+
+  }).catch(err => {
+    console.error('Failed to copy text: ', err);
+  });
+
+  copyButton();
+  
 })
+
+
+
 document.getElementById('copy9').addEventListener('click', function(){
 
-        alert('Number copied: 163');
-     
-      copyButton()
+  const text9 =document.getElementById('textCopy9').innerText;
+
+  navigator.clipboard.writeText(text9).then(() => {
+    alert('Text copied: ' + text9);
+
+  }).catch(err => {
+    console.error('Failed to copy text: ', err);
+  });
+
+  copyButton();
+  
 })
+
+
 
 
 

@@ -1,0 +1,55 @@
+     //Ans to the ques no : 1
+    
+* getElementById :- it is a method used to single HTMLL element .if no element with that id exists ,it return null.
+
+* getElementByClass :- it is a method used to multiple HTML element . it can  use multiple element HTML together. 
+
+* querySelector :- it is DOM method. if do multiple element match , than return first element.
+
+* querySelectorAll :- it is DOM method . if do multiple html element work together. all element NodeList . NodeList loop (for , for....of , forEach)
+
+
+      // Ans to the que no : 2
+
+there are multiple tyoe DOM element . 
+1. id element;
+2. class element;
+3. createElement;
+4.querySelectorAll;
+eat...... 
+ 
+For exmple :---
+
+const newElement = document.createElement("p"); // create a <p> tag;
+
+
+       // Ans to the que no :3
+
+Event Bubbling is the default Javascript mechanism in DOM. 
+
+How Event Bubbling works:- 
+
+Event Trigger :A user action, such as clicking a button , triggers an event on a specific element (the target);
+Target Phase : The event handler attached directly to the target element is executed firstl
+
+   // Ans to the que no :4
+
+Event Delgation is a pattern is a pattern based upon the concept of Event Bubbling . it is an event-handling pattern that allows you to handle events at a higher level in the DOM tree other than the level where the event was first received.
+
+useful:- 
+
+1.Improved performance.
+2.Handles dynamic elements.
+3.simplified code
+
+
+   // Ans to the que no :5
+
+The preventDefault() and stopPropagation() methods in Javascript event handling serve distinct purposes related to event behavior in the DOM. 
+
+* event.preventDefault() :- 
+Prevens the browser's default behavior for a specific event.Does not affect event propagation . The event will still bubble up to parent elements and trigger any listeners ther.
+
+* event stopPropagation():- 
+This method halts the propagtion of an event through the DOM hierarchy. The "flow" of the event through the DOM hierarchy. 
+    
