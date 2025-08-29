@@ -91,6 +91,8 @@
 
    .card{
        width: 410px;
+       padding-left: 30px;
+       padding-top: 40px;
    }
 
 
@@ -99,9 +101,13 @@
      
   }
 
-  
+  .btn-responsive{
+    margin-left: 19px;
+  }
  
-
+  .icon-responsive{
+    padding: 0px 25px 0px 25px;
+  } 
 
 
 
