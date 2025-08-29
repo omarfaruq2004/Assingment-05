@@ -304,9 +304,10 @@ document.getElementById('Railway-call-btn').addEventListener('click', function()
             // History Button - Clear
   
 const hoveEffect = document.getElementById('clear-Btn');
-const History =document.getElementById('History');
+const History =document.getElementById('callList');
 
 hoveEffect.addEventListener('click', function(){
+   
 
   History.innerHTML = " ";
 
